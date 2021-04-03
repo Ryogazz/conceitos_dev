@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        body{ font-family: sans-serif;}
+        table{
+            border-collapse: collapse;
+        }
+        table td, table th{
+            border: 1px solid red;
+            padding: 5px;
+        }
+
+        tfoot td{
+            background: grey;
+        }
+
+        .respose{
+            max-width: 100%;
+            overflow: auto;
+        }
+    </style>
+
+</head>
+<body>
+    <p>Lorem ipsum dolor sit.</p>
+
+    <div class="respose">
+    <table>
+        <caption>Rangers and their power </caption>
+        <thead>
+            <tr>
+                <th>Ranger</th>
+                <th><span style="color: red;">Red</span> ranger</th>
+                <th><span style="color: blue;">Blue</span> ranger</th>
+                <th><span style="color: yellow;">Yellow</span> ranger</th>
+                <th><span style="color: pink;">Pink</span> ranger</th>
+                <th><span style="color: Black;">Black</span> ranger</th>
+                <th><span style="color: green;">Gree</span> ranger</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <td>Weapon</td>
+            <td>Power sword</td>
+            <td>Power Lance</td>
+            <td>Power Dua-Dagger</td>
+            <td>Power Bow</td>
+            <td>Power Axe</td>
+            <td>Power Dragon-dagger</td>
+        </tbody>
+
+        <tbody>
+            <td>Zord</td>
+            <td>Tiranossaurus</td>
+            <td>Triceratops</td>
+            <td>Saber-toothed tiger</td>
+            <td>Pterodactyl</td>
+            <td>Mammoth</td>
+            <td>Dragon-cesar</td>
+        </tbody>
+
+        <tfoot>
+            <td>Type</td>
+            <td colspan="2">Atack</td>
+            <td colspan="2">Suport</td>
+            <td>Atack and suport</td>
+            <td>Suport</td>            
+        </tfoot>
+
+    </table>
+    
+    </div>
+
+</body>
+</html>
