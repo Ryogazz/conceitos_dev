@@ -1,0 +1,18 @@
+.caixa{
+    background-color: red;
+    height: 120px;
+    width: 120px;
+    }
+
+.caixa2{
+    background-color: aqua;
+    height: 60px;
+    width: 60px;
+}   
+
+.text{
+    background-color: blue;
+    color: cornsilk;
+    font-style: italic;
+}
+

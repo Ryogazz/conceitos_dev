@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.v1{
+    color: darkorchid;
+}
+.v1p{
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3.v2, .v2p {
+    color: darkseagreen;
+}
+
+
+.v2p2 h2{
+    color: greenyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    color: initial;
+}
+.pai{
+    color: royalblue ;
+}
