@@ -27,3 +27,61 @@ div{
 .pai{
     color: royalblue ;
 }
+
+.paizao h1+p{
+    color: aqua ;
+}
+
+.paizao p + h1{
+    color: brown;
+}
+
+[atributo-cor-1]{
+    color: darkblue;
+}
+[atributo-cor-2]{
+    color: darkmagenta;
+}
+
+.teste:hover{
+    color: darkred;
+    background-color: deepskyblue;
+}
+
+a {
+    color: forestgreen;
+}
+
+a:link{
+    color: fuchsia;
+}
+
+a:visited{
+    color: gold;
+}
+
+a:hover{
+    background-color: green;
+    color: grey;
+    text-decoration: none;
+    cursor: not-allowed;
+}
+a:active{
+    color: hotpink;
+}
+ 
+input:focus{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+input:checked + p{ 
+    background-color: khaki;
+}
+
+p:not(.nao){
+    color: aqua;
+}
+
+ul li::after{
+    content: ' -- ';
+    background-color: black;
+}
