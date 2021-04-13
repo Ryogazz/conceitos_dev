@@ -1,0 +1,82 @@
+html{
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+}
+
+.pai {
+    font-size: 50px;
+    height: 100vh;
+    background: yellow;
+    overflow:  hidden;
+}
+
+p {
+    font-size: 0.5em;
+    font-style: italic;
+    font-weight: bold;
+    direction: ltr;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 25px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px red;
+}
+
+
+.color-two{
+    background:turquoise;
+}
+
+.color-three{
+    background: violet;
+}
+
+.lider{
+
+}
+
+.subordinado1, .subordinado2, .subordinado3{
+    width: 300px;
+    height: 300px;
+    background: red;
+    margin: 10px;
+    position: static;
+}
+
+.subordinado2{
+    
+    background: greenyellow;
+    position: fixed;
+    z-index: 1;
+    
+}
+
+.subordinado1{
+    color: mediumturquoise;
+}
+
+.subordinado3{
+    
+    background:magenta;
+    
+    
+}
+
+ul{
+    height: 100px;
+    overflow-y: auto;
+
+}
+
+ul li.sticky{
+    position: sticky;
+    background-color: gray;
+    top: 0;
+}
+
+@media(max-width: 320px){
+    
+}
