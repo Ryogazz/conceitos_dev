@@ -13,19 +13,23 @@
         rel="stylesheet">
 </head>
 
-<body class="main-bg">
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menus" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1>
+            <h1 onclick="getElementById('close-menu').checked = false;">
                 <a href="#home">Logo</a>
             </h1>
 
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#intro">Intro</a></li>
                     <li><a href="#os-5">Os Cinco Preceitos</a></li>
                     <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#pricing">Valores</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -91,60 +95,60 @@
             <div class="grid">
                 <article>
                     <p>
-                        <h3>Não matar:</h3>
-                        Matar inten­cio­nal­men­te um ser sen­cien­te é um modo muito grave de pre­ju­di­car alguém. Se
-                        pos­sí­vel, deve­mos evi­tar matar até mesmo camundongos, per­ni­lon­gos, formigas e outros
-                        ani­mais
-                        peque­nos. Ao res­pei­tar a menor e mais inde­fe­sa cria­tu­ra, adotamos uma ati­tu­de de
-                        res­pei­to
-                        por todos os seres. Esse tipo de res­pei­to é a base de todos os méri­tos.
+                    <h3>Não matar</h3>
+                    Matar inten­cio­nal­men­te um ser sen­cien­te é um modo muito grave de pre­ju­di­car alguém. Se
+                    pos­sí­vel, deve­mos evi­tar matar até mesmo camundongos, per­ni­lon­gos, formigas e outros
+                    ani­mais
+                    peque­nos. Ao res­pei­tar a menor e mais inde­fe­sa cria­tu­ra, adotamos uma ati­tu­de de
+                    res­pei­to
+                    por todos os seres. Esse tipo de res­pei­to é a base de todos os méri­tos.
                     </p>
                 </article>
                 <article>
                     <p>
-                        <h3>Não rou­bar:</h3>
-                        Não pre­ju­di­car os ­outros de nenhu­ma forma é o fun­da­men­to de todos os Cinco Preceitos.
-                        Quem
-                        rouba lesa, por­que viola o direi­to de pro­prie­da­de e a con­fian­ça na integrida­de do mundo
-                        ao
-                        redor. Define-se “rou­bar” como o ato de se apro­priar de qualquer coisa que não seja sua. O
-                        dano
-                        pode ser gera­do por meio de frau­de ou enga­no, pela remo­ção físi­ca de um obje­to
-                        per­ten­cen­te
-                        a outra pes­soa, pela esca­mo­tea­ção das leis – seja como for, toda forma de apropria­ção
-                        con­fi­gu­ra roubo.
+                    <h3>Não rou­bar</h3>
+                    Não pre­ju­di­car os ­outros de nenhu­ma forma é o fun­da­men­to de todos os Cinco Preceitos.
+                    Quem
+                    rouba lesa, por­que viola o direi­to de pro­prie­da­de e a con­fian­ça na integrida­de do mundo
+                    ao
+                    redor. Define-se “rou­bar” como o ato de se apro­priar de qualquer coisa que não seja sua. O
+                    dano
+                    pode ser gera­do por meio de frau­de ou enga­no, pela remo­ção físi­ca de um obje­to
+                    per­ten­cen­te
+                    a outra pes­soa, pela esca­mo­tea­ção das leis – seja como for, toda forma de apropria­ção
+                    con­fi­gu­ra roubo.
                     </p>
                 </article>
                 <article>
                     <p>
-                        <h3>Não men­tir:</h3>
-                        A defi­ni­ção mais sim­ples de men­tir é não dizer a ver­da­de. A men­ti­ra pode ser também
-                        qual­quer tipo de enga­na­ção, dupli­ci­da­de, fal­si­da­de, dis­tor­ção ou infor­ma­ção
-                        errônea.
-                        Trata-se de ofen­sa muito grave, por­que viola a confiança das pes­soas e as leva a duvi­dar de
-                        suas
-                        próprias intui­ções.
+                    <h3>Não men­tir</h3>
+                    A defi­ni­ção mais sim­ples de men­tir é não dizer a ver­da­de. A men­ti­ra pode ser também
+                    qual­quer tipo de enga­na­ção, dupli­ci­da­de, fal­si­da­de, dis­tor­ção ou infor­ma­ção
+                    errônea.
+                    Trata-se de ofen­sa muito grave, por­que viola a confiança das pes­soas e as leva a duvi­dar de
+                    suas
+                    próprias intui­ções.
                     </p>
                 </article>
                 <article>
                     <p>
-                        <h3>Não ter má con­du­ta ­sexual:</h3>
-                        Entende-se por não ter má con­du­ta ­sexual a prá­ti­ca ­sexual que viole as leis e costu­mes da
-                        socie­da­de. Paralelamente, o inces­to e qual­quer outra condu­ta ­sexual que lese ou viole os
-                        direi­tos de outra pes­soa são tam­bém consi­de­ra­dos má con­du­ta sexual.
+                    <h3>Não ter má con­du­ta ­sexual</h3>
+                    Entende-se por não ter má con­du­ta ­sexual a prá­ti­ca ­sexual que viole as leis e costu­mes da
+                    socie­da­de. Paralelamente, o inces­to e qual­quer outra condu­ta ­sexual que lese ou viole os
+                    direi­tos de outra pes­soa são tam­bém consi­de­ra­dos má con­du­ta sexual.
                     </p>
                 </article>
                 <article>
                     <p>
-                        <h3>Não abu­sar de dro­gas ou bebi­das alcoólicas:</h3>
-                        Uma tra­du­ção mais lite­ral deste pre­cei­to seria: “Prometo abs­ter-me do entorpecimen­to e da
-                        impru­dên­cia resul­tan­tes da uti­li­za­ção de dro­gas ou da inges­tão de bebidas
-                        alcoó­li­cas”. Em
-                        pou­cas pala­vras, o pre­cei­to diz: não se entor­pe­ça. O pro­pó­si­to dele é evi­tar que
-                        faça­mos
-                        ou diga­mos coi­sas estú­pi­das enquan­to nos­sos sen­ti­dos estiverem alte­ra­dos sob o efei­to
-                        de
-                        dro­gas ou bebidas alcoó­li­cas.
+                    <h3>Não abu­sar de dro­gas ou bebi­das alcoólicas</h3>
+                    Uma tra­du­ção mais lite­ral deste pre­cei­to seria: “Prometo abs­ter-me do entorpecimen­to e da
+                    impru­dên­cia resul­tan­tes da uti­li­za­ção de dro­gas ou da inges­tão de bebidas
+                    alcoó­li­cas”. Em
+                    pou­cas pala­vras, o pre­cei­to diz: não se entor­pe­ça. O pro­pó­si­to dele é evi­tar que
+                    faça­mos
+                    ou diga­mos coi­sas estú­pi­das enquan­to nos­sos sen­ti­dos estiverem alte­ra­dos sob o efei­to
+                    de
+                    dro­gas ou bebidas alcoó­li­cas.
 
 
                     </p>
@@ -156,13 +160,145 @@
         </div>
     </section>
 
-    <section id="gallery" class="section white-bg">
-        <div class="main-content">
-            <h1>Teste</h1>
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-headin">Gallery</h2>
+            <p class="grid-description">
+                Algumas imagens
+            </p>
+
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=1" alt="ramdom image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=2" alt="ramdom image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=3" alt="ramdom image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=4" alt="ramdom image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=5" alt="ramdom image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=6" alt="ramdom image from unsplash" />
+                </div>
+            </div>
+
         </div>
     </section>
 
+    <section id="pricing" class="white-bg section">
+        <div class="main-content sentidos-content">
+            <h2>Valores</h2>
+            <p>
+                O oitavo saber ou Arayashiki, funciona como um depósito das ações, pensamentos e desejos, bons ou maus.
+                Sendo esse Arayashiki inextinguível, os Zaishou das vidas anteriores continuam armazenados.
+                A Butsuryu-Shu tem por envelhecer uma extinção dos Zaishou que não estão Arayashiki, através da oração
+                do Myouhou e, conseqüentemente desenvolver uma natureza búdica inerente ao nosso ser.
+                O conceito do Alaya Vijnana / Arayashiki foi desenvolvido dentro da escola de pensamento budista
+                Yogacara, como uma resposta à indagação de onde se armazenavam as sementes do carma do indivíduo.
+            </p>
+            <p>
+                O nono saber, denominada amala em sânscrito, significa imaculada. Ela encontra-se na parte mais profunda
+                da vida humana, livre das impurezas que o indivíduo possa trazer como resultado de suas ações passadas e
+                acumuladas na oitava consciência. Nitiren Daishonin elucida essa nona consciência como sendo o próprio
+                estado de Buda, que se estende eternamente do infinito passado ao infinito futuro na vida de todas as
+                pessoas.
+            </p>
 
+            <div class="responsive-table">
+                <table>
+                    <caption>Tabela de Valores</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>total</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Contato geral</h2>
+                <p>
+                    Este formulário é indicado, para trabalhos jornalísticos ou para quem quer apren­der mais sobre
+                    budismo, templos, cultura oriental ou atualidades sob o ponto de vista do budismo, independente de
+                    serem mídia tradicional ou alternativa.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/mandala.svg" alt="Imagem de uma mandala, uma flor aberta vista de cima  ">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contato</legend>
+                    <div class="form-group">
+                        <label for="first-name">Primero nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="email@email.com">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10"
+                            placeholder="Deixe aqui a sua mensagem"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar mensagem</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a real="nofollow" target="_blank" href="#">Feito por J'K'Dash</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
 </body>
 
 </html>
