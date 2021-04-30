@@ -57,6 +57,7 @@ varC = a;
 console.log(varA,varB,varC);
 */
 
+/*
 const nome = prompt('Digite seu nome completo:');
 document.body.innerHTML += `O seu nome é: ${nome}<br/>`;
 document.body.innerHTML += `Seu nome tem ${nome.length} letras <br />`;
@@ -67,3 +68,47 @@ document.body.innerHTML += `As últimas 3 letras do seu nome são: ${nome.slice(
 document.body.innerHTML += `As palavras do seu nome são: ${nome.split(' ')}<br />`;
 document.body.innerHTML += `Seu nome com letras maiúsculas: ${nome.toUpperCase()}<br />`;
 document.body.innerHTML += `Seu nome com letras minúsculas: ${nome.toLowerCase()}<br />`;
+*/
+
+/*const aluno = ['luiz', 'dash', 'silva'];
+console.log(aluno);
+
+//funçao
+const Raiz = function(n){
+    return n ** 0.5;
+}
+//or
+const raiz = n => n **0.5;
+
+console.log(Raiz(9));
+console.log(raiz(9));
+*/
+
+function cadastro (){
+    const form = document.querySelector('.form');
+    const resultado = document.querySelector('.resultado');
+    const pessoas = [];
+    function recebeEventoForm(eveto){
+        eveto.preventDefault();
+
+        const nome = form.querySelector('.nome');
+        const sobrenome = form.querySelector('.sobrenome');
+        const peso = form.querySelector('.peso');
+        const altura = form.querySelector('.altura'); 
+
+        pessoas.push({
+            nome: nome.value,
+            sobrenome: sobrenome.value,
+            peso: peso.value,
+            altura: altura.value,
+        })
+
+        console.log(pessoas);
+
+        resultado.innerHTML += `<p>${nome.value} ${sobrenome.value} ${peso.value} ${altura.value}</p>`
+    }
+
+    form.addEventListener('submit', recebeEventoForm);
+}
+
+cadastro()
