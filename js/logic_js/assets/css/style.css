@@ -56,3 +56,25 @@ form button {
 form button:hover {
   background: var(--primary-color-darker);
 }
+
+.paragrafo-resultado, .bad{
+  background-color: rgb(10, 224, 124);
+  padding: 10px 20px ;
+}
+
+.bad{
+  background-color: red;
+}
+
+table{
+  font-size: 15px;
+  
+  
+}
+th{
+  text-align: left;
+}
+td{
+  width: 300px;
+  font-weight:500;
+}
