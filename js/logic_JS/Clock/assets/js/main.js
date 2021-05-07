@@ -1,4 +1,5 @@
-now = new Date;
+/*now = new Date;
+
 function getDiaSemanaTexto(diaSemana) {
     let diaSemanaTexto;
 
@@ -90,3 +91,11 @@ const h1 = document.querySelector('.container h1')
 
 h1.innerHTML = criandoData(now);
 
+*/
+const h1 = document.querySelector('.container h1')
+const data = new Date();
+const opcoes = {
+    dateStyle: 'full',
+    timeStyle: 'short'
+}
+h1.innerHTML = data.toLocaleDateString('pt-BR', {dateStyle: 'full', timeStyle: 'full'});
