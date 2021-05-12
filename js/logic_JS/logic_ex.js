@@ -44,6 +44,8 @@ const diaSemanaTexto = getDiaSemanaTexto(diaSemana);
 console.log(diaSemanaTexto);
 
 
+const numeros = [1000, 200, 300, 400, 500];
 
+const [primeiro, segundo,  , quarto] = numeros;
 
-
+console.log(primeiro, segundo, quarto);  
