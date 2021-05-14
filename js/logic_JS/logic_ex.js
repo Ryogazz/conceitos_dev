@@ -43,9 +43,45 @@ let diaSemana = 4;
 const diaSemanaTexto = getDiaSemanaTexto(diaSemana);
 console.log(diaSemanaTexto);
 
-
+//desestruturação  
 const numeros = [1000, 200, 300, 400, 500];
 
 const [primeiro, segundo,  , quarto] = numeros;
 
 console.log(primeiro, segundo, quarto);  
+
+//desestruturação objeto
+const pessoa = {
+    nome: 'Luiz',
+    sobrenome: 'Miranda',
+    idade: 30,
+    endereço:{
+        rua: 'Av brasil',
+        numero: 320
+    }
+};
+const {sobrenome: sobrenome} = pessoa
+//const {endereco: {rua: r, numero: n}} = pessoa;
+//console.log(r , n);
+console.log(sobrenome);
+
+//repetiçao
+for (let i = 0; i <=5; i++){
+    console.log(`Linha ${i}`);
+}
+
+for (let i = 0; i <= 10; i++){
+    const par = i % 2 === 0;
+    console.log(i, par);
+}
+
+for (let j = 0; j <= 10; j++){
+    if (j % 2 === 0){
+        console.log(`o numero ${j} e par`)}
+
+}
+
+const frutas = ['uva', 'mamao', 'maça','abacate'];
+for(let fruta in frutas){
+    console.log(frutas[fruta]);
+}
