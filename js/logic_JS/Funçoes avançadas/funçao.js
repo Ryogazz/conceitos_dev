@@ -63,3 +63,5 @@ conta('+', 20, 30, 40);
 conta('-', 20, 30, 40);
 conta('/', 20, 30, 40);
 conta('*', 20, 30, 40);
+
+console.log('return'); 
