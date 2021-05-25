@@ -64,4 +64,31 @@ conta('-', 20, 30, 40);
 conta('/', 20, 30, 40);
 conta('*', 20, 30, 40);
 
-console.log('return'); 
+console.log('//////////////////////////////////////return//////////////////////////////////////////'); 
+
+function funcaoDeFora(fora){
+    function FuncaoDeDentro(dentro){
+        return fora + ' ' + dentro;
+    }
+    return FuncaoDeDentro;
+}
+
+const inicial = funcaoDeFora('Olá');
+console.log(inicial);
+const dentro = inicial('mundo');
+console.log(dentro);
+
+function pegaValor(valorDaMult){
+    function operacao(valorOperacao){
+        return (valorOperacao * valorDaMult);
+    }
+    return operacao;
+}
+
+const duplica = pegaValor(2);
+const triplica = pegaValor(3);
+const quadriplica = pegaValor(4);
+
+console.log(duplica(2));
+console.log(triplica(2));
+console.log(quadriplica(2));
