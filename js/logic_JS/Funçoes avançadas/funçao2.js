@@ -70,3 +70,5 @@ function f3Callback() {
 
     falaNome();
 })();
+
+
