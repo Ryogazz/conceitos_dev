@@ -92,3 +92,6 @@ function f3Callback() {
  const p1 = criarPessoa('Dash', 'K', 1.75, 80);
 console.log(p1);
  console.log(p1.imc());
+
+
+ 
